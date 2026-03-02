@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d937ed2e-cdfd-49d3-9147-8a2708280c43</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>logisticregression.py</StartupFile>
+    <StartupFile>svm.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="logisticregression.py" />
+    <Compile Include="randomforest.py" />
+    <Compile Include="svm.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
